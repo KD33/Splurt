@@ -1,4 +1,8 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+
+
 
 .clear {
   clear: both;
@@ -37,9 +41,20 @@
 .links a{
   border-bottom: 1px solid grey;
   color: black;
+  font-family: 'nobileregular', sans-serif;
   font-size: 25px;
+  font-weight: bold;
 }
 
+h1{
+  font-family: 'nobileregular', sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+h2{
+  font-family: 'nobilemedium_italic', sans-serif;
+}
 header{
   border-top: 9px solid #222222;
 }
