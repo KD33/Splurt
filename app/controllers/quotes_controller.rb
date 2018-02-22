@@ -4,9 +4,7 @@ class QuotesController < ApplicationController
     @quote = Quote.order("RANDOM()").first
   end
 
-  def new
-    @quote = Quote.new
-  end
+
 
   def create
     #This is what sends the saying and author to the database so they are saved
