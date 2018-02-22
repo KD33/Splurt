@@ -14,20 +14,21 @@
         <%= link_to root_path, class: 'logo' do %>
         <div class="circle">
           <br />
-          YOLO
+          Climbing
           <br />
-          LOL
+          Through
           <br />
-          OMG
+          The Ranks
         </div>
         <% end %>
       </div>
-      <div class="col-4 slogan">
+      <div class="col-4 slogan hidden-xs-down">
         Splurting out your favorite Overwatch voice lines
       </div>
-      <div class="col-5 links">
+      <div class="col-10 links offset-1 offset-sm-0 col-sm-5 links">
         <!-- Button trigger modal -->
         <%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'}, class: 'logo' %>
+        &nbsp;&nbsp;
         <%= link_to 'About', about_path, class: 'logo' %>
       </div>
     </header>
@@ -46,8 +47,9 @@
           </div>
           <%= simple_form_for Quote.new do |f| %>
           <div class="modal-body">
-              <%= f.input :saying %>
-              <%= f.input :author %>
+              <%= f.input :saying, label: "What is the saying you wish to add?", placeholder: "Bring me another!" %>
+              <br />
+              <%= f.input :author, label: "Who is the author of the quote?", placeholder: "Reinhardt"%>
               <br />
           </div>
           <div class="modal-footer">
@@ -76,7 +78,7 @@
     <div class="footer">
       <div class="container">
         <div class="row">
-          <div class="col-6">
+          <div class="col-12 col-sm-6">
             <%= link_to "This isn't enough, I need more", root_path, class:'next-quote' %>
           </div>
           <div class="col-6 footer-blurb">
