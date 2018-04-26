@@ -1,3 +1,4 @@
 # README
 
-Kadeem is a Rad Lad!
+"Kadeem is a Rad Lad!"
+-Aristotle
