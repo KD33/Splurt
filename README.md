@@ -1,4 +1,4 @@
 # README
 
-"Kadeem is a Rad Lad!"
+"Kadeem is undisputedly a Rad Lad!"
 -Socrates
